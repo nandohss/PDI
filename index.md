@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Plano de Desenvolvimento Individual (PDI)"
+permalink: /PDI
 ---
 
 ## Introdução Pessoal e Contexto Profissional
