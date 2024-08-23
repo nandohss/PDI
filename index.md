@@ -40,6 +40,8 @@ Atualmente, minhas habilidades técnicas incluem:
 - Desmobilização do Reflector e Democratização dos dados da Service Now no Data Mesh;
 - Democratização dos dados de KPIs e Tracing do FinOps Agent.
 
+## Badges
+
 
 ## Plano de Ação
 
