@@ -2,6 +2,7 @@
 layout: page
 title: "Plano de Desenvolvimento Individual (PDI)"
 ---
+<img src="/assets/images/nome-da-sua-imagem.png" alt="Minha Foto" class="img-fluid rounded-circle" />
 
 ## Introdução Pessoal e Contexto Profissional
 
