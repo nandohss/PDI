@@ -56,23 +56,33 @@
     </header>
     
     <!-- Seção de perfil -->
-    <main class="container mt-5 profile-container">
-        <img src="/PDI/assets/images/eu.jpeg" alt="Minha Foto" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
-        <h2>{{ site.author.name }}</h2>
-        <p class="lead text-muted">{{ site.description }}</p>
-        
-        <!-- Adicione redes sociais, se desejar -->
-        <div class="mt-3">
-            <a href="https://linkedin.com/in/seu-perfil" class="btn btn-outline-primary btn-sm mx-1">LinkedIn</a>
-            <a href="https://github.com/seu-usuario" class="btn btn-outline-dark btn-sm mx-1">GitHub</a>
-            <a href="mailto:seu-email@example.com" class="btn btn-outline-secondary btn-sm mx-1">Email</a>
+    <main class="container mt-5">
+        <div class="text-center">
+            <img src="/PDI/assets/images/eu.jpeg" alt="Minha Foto" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
+            <h2 class="mt-4">{{ site.author.name }}</h2>
+            <p class="lead text-muted">{{ site.description }}</p>
+            
+            <!-- Adicione redes sociais, se desejar -->
+            <div class="mt-3">
+                <a href="https://linkedin.com/in/fernando-sousa-silva-69092016a" class="btn btn-outline-primary btn-sm mx-1">LinkedIn</a>
+                <a href="https://github.com/nandohss" class="btn btn-outline-dark btn-sm mx-1">GitHub</a>
+                <a href="mailto:fernando98sousaa@gmail.com" class="btn btn-outline-secondary btn-sm mx-1">Email Pessoal</a>
+                <a href="mailto:fernando.sousa-silva@itau-unibanco.com.br" class="btn btn-outline-secondary btn-sm mx-1">Email Corporativo</a>
+
+            </div>
         </div>
+        <!-- O conteúdo adicional da página vem aqui -->
+        {{ content }}
     </main>
-    
-    <footer class="text-center">
+
+    <footer class="bg-light text-center py-4 mt-5">
         <div class="container">
-            <p>&copy; 2024 {{ site.author.name }}</p>
+            <p class="text-muted">&copy; 2024 {{ site.author.name }}</p>
         </div>
     </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
