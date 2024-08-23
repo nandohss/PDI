@@ -42,6 +42,7 @@ Atualmente, minhas habilidades técnicas incluem:
 
 ## Badges
 
+![AWS Cloud PRactitioner](assets/images/aws-certified-cloud-practitioner.png)
 
 ## Plano de Ação
 
