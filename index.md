@@ -16,23 +16,25 @@ Olá, possuo 25 anos de idade e me formei em Análise e Desenvolvimento de Siste
 - ⌛ Visão analítica de KRs do FinOps Agent;
 - ⌛ Democratização de dados do Cudos.
 <br>
-
+<br>
 ## Autoavaliação
 <br>
 Atualmente, minhas habilidades técnicas incluem:
 <br>
-### Linguagens e Ferramentas:
-<br>
+
+#### Linguagens e Ferramentas:
+
 - SQL, PowerDesigner, Python, PySpark, Glue Jobs, Glue DataBrew, Lambda, DynamoDB, RDS, MySQL, QuickSight, Athena, ServiceNow, Grafana.
 <br>
+
 #### Certificações de mercado:
-<br>
+
 - 🎖️ AWS (certificação Cloud Practitioner)
 - 🎖️ Azure (Data Fundamentals)
 - 🎖️ Oracle (OCI Fundamental)
  <br>
 #### Certificações Internas:
-<br>
+
 - 🎖️ Data Engineer (professional)
 - 🎖️ Analytics & Data Engineering (Associate)
 - 🎖️ Data Modelling (Associate)
@@ -42,22 +44,22 @@ Atualmente, minhas habilidades técnicas incluem:
 <br>
 - Experiência Prática: Modelagem de dados, democratização de dados, desenvolvimento de pipelines de dados e Analytics.
 <br>
-
+<br>
 ## Objetivos de Desenvolvimento
 <br>
 
-## Objetivo para o ciclo atual: Ser contemplado com PRAD e/ou Mérito
+### Objetivo para o ciclo atual: Ser contemplado com PRAD e/ou Mérito
 <br>
 
 ### Curto Prazo:
-<br>
+
 - 🕓 Obter a certificação AWS Solutions Architect (Associate).
 - 🕓 Aprofundar conhecimentos em Python e PySpark.
 - ✅ Participar de projetos focados em democratização de dados.
 <br>
 
 ### Médio Prazo:
-<br>
+
 - 🕓 Obter a certificação AWS Data Engineering (Associate).
 - 🕓 Explorar tecnologias de dados por stream, como por exemplo Kinesis, e ferramentas como EMR e Databricks.
 - 🕓 Considerar uma pós-graduação em Big Data e Data Science Analytics (MBA).
@@ -65,7 +67,7 @@ Atualmente, minhas habilidades técnicas incluem:
 <br>
 
 ### Longo Prazo:
-<br>
+
 - Decidir entre seguir uma carreira técnica ou de gestão, com base em um aprofundamento técnico e melhor compreensão dos aspectos gerenciais.
 
 <br>
