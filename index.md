@@ -10,11 +10,11 @@ Olá, possuo 25 anos de idade e me formei em Análise e Desenvolvimento de Siste
 
 ## Projetos e Experiências Práticas
 
-✅ IU Mentoria;
-✅ Desmobilização do Reflector e Democratização dos dados da Service Now no Data Mesh;
-✅ Democratização dos dados de KPIs e Tracing do FinOps Agent;
-⌛ Visão analítica de KRs do FinOps Agent;
-⌛ Democratização de dados do Cudos.
+- ✅ IU Mentoria;
+- ✅ Desmobilização do Reflector e Democratização dos dados da Service Now no Data Mesh;
+- ✅ Democratização dos dados de KPIs e Tracing do FinOps Agent;
+- ⌛ Visão analítica de KRs do FinOps Agent;
+- ⌛ Democratização de dados do Cudos.
 
 
 ## Autoavaliação
