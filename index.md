@@ -21,17 +21,17 @@ Olá, possuo 25 anos de idade e me formei em Análise e Desenvolvimento de Siste
 
 Atualmente, minhas habilidades técnicas incluem:
 
-- Linguagens e Ferramentas:
+# Linguagens e Ferramentas:
   
 - SQL, PowerDesigner, Python, PySpark, Glue Jobs, Glue DataBrew, Lambda, DynamoDB, RDS, MySQL, QuickSight, Athena, ServiceNow, Grafana.
 
-Certificações de mercado:
+# Certificações de mercado:
 
 - 🎖️ AWS (certificação Cloud Practitioner)
 - 🎖️ Azure (Data Fundamentals)
 - 🎖️ Oracle (OCI Fundamental)
  
-- Certificações Internas:
+# Certificações Internas:
 
 - 🎖️ Data Engineer (professional)
 - 🎖️ Analytics & Data Engineering (Associate)
@@ -45,7 +45,9 @@ Certificações de mercado:
 
 ## Objetivos de Desenvolvimento
 
+
 ## Objetivo para o ciclo atual: Ser contemplado com PRAD e/ou Mérito
+
 
 ### Curto Prazo:
 
