@@ -48,21 +48,24 @@ Atualmente, minhas habilidades técnicas incluem:
 ## Objetivos de Desenvolvimento
 <br>
 
-### Objetivo para o ciclo atual: Ser contemplado com PRAD e/ou Mérito
+### Objetivo para o ciclo atual: Estar preparado para ser reconhecido por alta performance.
 <br>
 
 ### Curto Prazo:
 
-- 🕓 Obter a certificação AWS Solutions Architect (Associate).
+- 🕓 Obter a certificação AWS Solutions Architect (Associate). [31/01/2025]
+- 1° Realizar simulado e obter:
+-  70% de acertos [até 31/11/2024]
+-  75% de acertos [até 31/12/2024]
 - 🕓 Aprofundar conhecimentos em Python e PySpark.
 - ✅ Participar de projetos focados em democratização de dados.
 <br>
 
 ### Médio Prazo:
 
-- 🕓 Obter a certificação AWS Data Engineering (Associate).
-- 🕓 Explorar tecnologias de dados por stream, como por exemplo Kinesis, e ferramentas como EMR e Databricks.
-- 🕓 Considerar uma pós-graduação em Big Data e Data Science Analytics (MBA).
+- 🕓 Explorar tecnologias de dados por stream, como por exemplo Kinesis, e ferramentas como EMR e Databricks. [31/03/2025]
+- 🕓 Obter a certificação AWS Data Engineering (Associate). [31/06/2025]
+- 🕓 Considerar uma pós-graduação em Big Data e Data Science Analytics (MBA). [31/06/2025]
 - 🔛 Continuar expandindo minha expertise em modelagem de dados e desenvolvimento de produtos de dados.
 <br>
 
