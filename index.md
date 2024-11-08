@@ -11,10 +11,10 @@ Olá, possuo 25 anos de idade e me formei em Análise e Desenvolvimento de Siste
 ## Projetos e Experiências Práticas
 <br>
 - ✅ IU Mentoria;
-- ✅ Desmobilização do Reflector e Democratização dos dados da Service Now no Data Mesh;
-- ✅ Democratização dos dados de KPIs e Tracing do FinOps Agent;
+- ✅ Desmobilização de plataforma de dados On-Premises e Democratização dos dados de ITSM (Plataforma Service Now) no Data Mesh;
+- ✅ Democratização dos dados de KPIs e Tracing do FinOps Agent, produto este que tem como objetivo reduzir os custos dos recursos das contas AWS por meio da utilização de um Agent LLM;
 - ⌛ Visão analítica de KRs do FinOps Agent;
-- ⌛ Democratização de dados do Cudos.
+- ⌛ Democratização de dados de custos dos recursos AWS disponibilizados pelo serviço Cudos da AWS.
 <br>
 <br>
 ## Autoavaliação
