@@ -15,17 +15,24 @@ linguagens_ferramentas:
   - Grafana
 
 certificacoes_mercado:
-  - nome: "AWS (Cloud Practitioner)"
-  - nome: "Azure (Data Fundamentals)"
-  - nome: "Oracle (OCI Fundamental)"
+  - nome: "AWS Certified Cloud Practitioner"
+  - nome: "Microsoft Certified: Azure Data Fundamentals"
+  - nome: "Oracle Cloud Infrastructure Foundations Associate"
+  - nome: "Scrum Foundation Professional Certification (SFPC)"
 
 certificacoes_internas:
-  - nome: "Data Engineer (professional)"
-  - nome: "Analytics & Data Engineering (Associate)"
-  - nome: "Data Modelling (Associate)"
-  - nome: "Quantum Compute (Practitioner)"
-  - nome: "Observability (Practitioner)"
-  - nome: "Generative AI (Practitioner)"
+  - nome: "Professional - Data Engineering (Itaú)"
+  - nome: "Associate - Data Engineering (Itaú)"
+  - nome: "Associate - Analytics Engineering (Itaú)"
+  - nome: "Associate - Data Modelling (Itaú)"
+  - nome: "Associate - Data Governance (Itaú)"
+  - nome: "Associate - Data Products (Itaú)"
+  - nome: "Practitioner - Generative AI (Itaú)"
+  - nome: "Practitioner - Quantum Computing (Itaú)"
+  - nome: "Practitioner - D&A Foundation (Itaú)"
+  - nome: "Business - Data Analysis (Itaú)"
+  - nome: "Arquitetura de Soluções Foundation (Itaú)"
+  - nome: "Batalha de Dados (Itaú)"
 
 experiencia_pratica:
   - "Modelagem de dados"
