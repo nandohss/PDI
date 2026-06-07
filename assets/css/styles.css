@@ -125,47 +125,66 @@ header p {
   color: var(--text-color);
 }
 
-/* Timeline */
+/* Timeline Horizontal */
 .timeline {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  padding: 1rem 0.5rem 1rem 0.5rem;
   position: relative;
-  padding-left: 2rem;
+  min-width: 100%;
+}
+
+/* Customização do Scrollbar para a Timeline */
+.timeline::-webkit-scrollbar {
+  height: 6px;
+}
+.timeline::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+.timeline::-webkit-scrollbar-thumb {
+  background: var(--card-border);
+  border-radius: 10px;
 }
 
 .timeline::before {
   content: '';
   position: absolute;
   left: 0;
-  top: 0;
-  bottom: 0;
-  width: 2px;
+  right: 0;
+  top: 1.4rem;
+  height: 2px;
   background: var(--card-border);
+  z-index: 0;
 }
 
 .timeline-item {
   position: relative;
-  margin-bottom: 2rem;
-}
-
-.timeline-item:last-child {
-  margin-bottom: 0;
+  flex: 0 0 260px;
+  padding-top: 2rem;
+  text-align: center;
 }
 
 .timeline-item::before {
   content: '';
   position: absolute;
-  left: -2.4rem;
-  top: 0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -0.1rem;
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: var(--bg-color);
+  background: var(--card-bg);
   border: 3px solid var(--primary-color);
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 1;
 }
 
 .timeline-item:hover::before {
   background: var(--primary-color);
-  box-shadow: 0 0 10px var(--glow-color);
+  transform: translateX(-50%) scale(1.2);
+  box-shadow: 0 0 15px var(--glow-color);
 }
 
 .timeline-period {
