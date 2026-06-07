@@ -28,5 +28,10 @@ longo_prazo:
 
 plano_de_acao:
   - descricao: "Participar de cursos e treinamentos focados em AWS e Data Engineering."
-  - descricao: "Envolver-me em projetos práticos e desafios (ex: atuar como Founder e Tech Lead no app Hubros)."
+    concluido: false
+  - descricao: "Envolver-me em projetos práticos e desafios focados na resolução de problemas reais."
+    concluido: false
+  - descricao: "Atuar ativamente como Founder e Tech Lead no app Hubros (Desenvolvimento de habilidades empreendedoras e arquiteturais)."
+    concluido: true
   - descricao: "Buscar oportunidades de mentoria e networking para aprender com profissionais experientes."
+    concluido: false

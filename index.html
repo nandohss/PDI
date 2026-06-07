@@ -171,8 +171,8 @@ layout: default
     <h2>📋 Plano de Ação</h2>
     <ul class="todo-list">
         {% for acao in site.data.todos.plano_de_acao %}
-        <li class="todo-item">
-            <span class="todo-icon" style="border-radius: 50%;"></span>
+        <li class="todo-item {% if acao.concluido %}done{% endif %}">
+            <span class="todo-icon" {% if acao.concluido == false or acao.concluido == nil %}style="border-radius: 50%;"{% endif %}>{% if acao.concluido %}✓{% endif %}</span>
             <span class="todo-text">{{ acao.descricao }}</span>
         </li>
         {% endfor %}
