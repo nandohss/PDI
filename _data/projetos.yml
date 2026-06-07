@@ -10,3 +10,6 @@
 - titulo: "Modelo de Resiliência Aplicacional (GenAI)"
   descricao: "Projeto em 2026 envolvendo um modelo de IA Generativa (ChatGPT OSS) que analisa via repositório a resiliência das aplicações AWS do banco. Fui responsável pela engenharia e ingestão dos dados de output do modelo, democratizando-os no ambiente Data Mesh."
   status: "concluido"
+- titulo: "ETL IMO (Identificação de Mudanças Ofensoras)"
+  descricao: "Atualmente (Junho/2026) na reta final da ingestão de dados para a nova versão do ETL do modelo IMO. Este desafio envolve processamento de alta volumetria (mais de 100 milhões de registros por dia). A nova solução tem o grande objetivo de reduzir os custos operacionais de R$ 150 mil/mês para cerca de R$ 3 mil/mês."
+  status: "andamento"
