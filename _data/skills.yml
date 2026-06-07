@@ -1,0 +1,34 @@
+linguagens_ferramentas:
+  - SQL
+  - PowerDesigner
+  - Python
+  - PySpark
+  - Glue Jobs
+  - Glue DataBrew
+  - Lambda
+  - DynamoDB
+  - RDS
+  - MySQL
+  - QuickSight
+  - Athena
+  - ServiceNow
+  - Grafana
+
+certificacoes_mercado:
+  - nome: "AWS (Cloud Practitioner)"
+  - nome: "Azure (Data Fundamentals)"
+  - nome: "Oracle (OCI Fundamental)"
+
+certificacoes_internas:
+  - nome: "Data Engineer (professional)"
+  - nome: "Analytics & Data Engineering (Associate)"
+  - nome: "Data Modelling (Associate)"
+  - nome: "Quantum Compute (Practitioner)"
+  - nome: "Observability (Practitioner)"
+  - nome: "Generative AI (Practitioner)"
+
+experiencia_pratica:
+  - "Modelagem de dados"
+  - "Democratização de dados"
+  - "Desenvolvimento de pipelines de dados"
+  - "Analytics"

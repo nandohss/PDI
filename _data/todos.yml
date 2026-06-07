@@ -1,0 +1,30 @@
+curto_prazo:
+  - descricao: "Obter a certificação AWS Solutions Architect (Associate). [31/01/2025]"
+    concluido: false
+  - descricao: "Realizar simulado e obter 70% de acertos [até 31/11/2024]"
+    concluido: false
+  - descricao: "Realizar simulado e obter 75% de acertos [até 31/12/2024]"
+    concluido: false
+  - descricao: "Aprofundar conhecimentos em Python e PySpark."
+    concluido: false
+  - descricao: "Participar de projetos focados em democratização de dados."
+    concluido: true
+
+medio_prazo:
+  - descricao: "Explorar tecnologias de dados por stream, como por exemplo Kinesis, e ferramentas como EMR e Databricks. [31/03/2025]"
+    concluido: false
+  - descricao: "Obter a certificação AWS Data Engineering (Associate). [31/06/2025]"
+    concluido: false
+  - descricao: "Considerar uma pós-graduação em Big Data e Data Science Analytics (MBA). [31/06/2025]"
+    concluido: false
+  - descricao: "Continuar expandindo minha expertise em modelagem de dados e desenvolvimento de produtos de dados."
+    concluido: false
+
+longo_prazo:
+  - descricao: "Decidir entre seguir uma carreira técnica ou de gestão, com base em um aprofundamento técnico e melhor compreensão dos aspectos gerenciais."
+    concluido: false
+
+plano_de_acao:
+  - descricao: "Participar de cursos e treinamentos focados em AWS e Data Engineering."
+  - descricao: "Envolver-me em projetos práticos e desafios, como hackathons e competições internas."
+  - descricao: "Buscar oportunidades de mentoria e networking para aprender com profissionais experientes."

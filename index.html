@@ -1,0 +1,125 @@
+---
+layout: default
+---
+
+<div class="card">
+    <h2>👋 Sobre Mim</h2>
+    <p>Olá, possuo 25 anos de idade e me formei em Análise e Desenvolvimento de Sistemas pelo Instituto Federal de São Paulo. Moro em Pirituba, Zona Norte de São Paulo. Minha trajetória profissional abrange desde suporte de sistemas até engenharia e democratização de dados em grandes corporações.</p>
+</div>
+
+<div class="card">
+    <h2>🚀 Projetos e Experiências Práticas</h2>
+    <ul class="todo-list">
+        {% for projeto in site.data.projetos %}
+        <li class="todo-item {% if projeto.status == 'concluido' %}done{% elsif projeto.status == 'andamento' %}in-progress{% endif %}">
+            <span class="todo-icon">
+                {% if projeto.status == 'concluido' %}
+                    ✓
+                {% elsif projeto.status == 'andamento' %}
+                    ⌛
+                {% else %}
+                    •
+                {% endif %}
+            </span>
+            <div class="todo-text">
+                <strong>{{ projeto.titulo }}</strong>
+                <p style="margin: 0; font-size: 0.95rem; color: var(--text-muted);">{{ projeto.descricao }}</p>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="card">
+    <h2>🎯 Timeline de Carreira</h2>
+    <div class="timeline">
+        {% for item in site.data.timeline %}
+        <div class="timeline-item">
+            <div class="timeline-period">{{ item.periodo }}</div>
+            <div class="timeline-title">{{ item.cargo }} | {{ item.squad }}</div>
+            <div class="timeline-desc">{{ item.descricao }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="card">
+    <h2>🛠️ Autoavaliação & Skills</h2>
+    
+    <h3 style="font-size: 1.1rem; margin-top: 1rem;">Linguagens e Ferramentas</h3>
+    <div class="skills-container">
+        {% for skill in site.data.skills.linguagens_ferramentas %}
+        <span class="badge">{{ skill }}</span>
+        {% endfor %}
+    </div>
+
+    <h3 style="font-size: 1.1rem; margin-top: 1.5rem;">Certificações de Mercado</h3>
+    <div class="skills-container">
+        {% for cert in site.data.skills.certificacoes_mercado %}
+        <span class="badge">🎖️ {{ cert.nome }}</span>
+        {% endfor %}
+    </div>
+
+    <h3 style="font-size: 1.1rem; margin-top: 1.5rem;">Certificações Internas</h3>
+    <div class="skills-container">
+        {% for cert in site.data.skills.certificacoes_internas %}
+        <span class="badge">🎖️ {{ cert.nome }}</span>
+        {% endfor %}
+    </div>
+
+    <h3 style="font-size: 1.1rem; margin-top: 1.5rem;">Experiência Prática</h3>
+    <ul style="padding-left: 1.5rem; color: var(--text-muted);">
+        {% for exp in site.data.skills.experiencia_pratica %}
+        <li>{{ exp }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="card">
+    <h2>📈 Objetivos de Desenvolvimento</h2>
+    <p style="color: var(--primary-color); font-weight: 600; margin-bottom: 1.5rem;">
+        Objetivo atual: Estar preparado para ser reconhecido por alta performance.
+    </p>
+
+    <h3 style="font-size: 1.2rem; margin-top: 1rem;">Curto Prazo</h3>
+    <ul class="todo-list">
+        {% for todo in site.data.todos.curto_prazo %}
+        <li class="todo-item {% if todo.concluido %}done{% endif %}">
+            <span class="todo-icon">{% if todo.concluido %}✓{% endif %}</span>
+            <span class="todo-text">{{ todo.descricao }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <h3 style="font-size: 1.2rem; margin-top: 1.5rem;">Médio Prazo</h3>
+    <ul class="todo-list">
+        {% for todo in site.data.todos.medio_prazo %}
+        <li class="todo-item {% if todo.concluido %}done{% endif %}">
+            <span class="todo-icon">{% if todo.concluido %}✓{% endif %}</span>
+            <span class="todo-text">{{ todo.descricao }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <h3 style="font-size: 1.2rem; margin-top: 1.5rem;">Longo Prazo</h3>
+    <ul class="todo-list">
+        {% for todo in site.data.todos.longo_prazo %}
+        <li class="todo-item {% if todo.concluido %}done{% endif %}">
+            <span class="todo-icon">{% if todo.concluido %}✓{% endif %}</span>
+            <span class="todo-text">{{ todo.descricao }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="card">
+    <h2>📋 Plano de Ação</h2>
+    <ul class="todo-list">
+        {% for acao in site.data.todos.plano_de_acao %}
+        <li class="todo-item">
+            <span class="todo-icon" style="border-radius: 50%;"></span>
+            <span class="todo-text">{{ acao.descricao }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
