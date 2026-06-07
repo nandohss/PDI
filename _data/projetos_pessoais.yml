@@ -1,3 +1,3 @@
 - titulo: "App Hubros (Plataforma de Coworking)"
-  descricao: "Aplicativo nativo para iOS desenvolvido com SwiftUI e backend serverless via AWS Amplify. Trata-se de uma plataforma completa de coworking com fluxo de reservas, pagamentos, check-in via QR Code, painel de perfil e sistema de convites. O projeto tem consolidado minhas habilidades em arquitetura de software, desenvolvimento Mobile e integrações Cloud-native na AWS."
+  descricao: "Aplicativo nativo para iOS desenvolvido com SwiftUI e backend serverless via AWS Amplify. O app é uma plataforma de coworking com reservas, pagamentos e QR Code. Além do backend, projetei e implementei uma arquitetura de dados Lake House com Dashboards para acompanhamento analítico dos KRs e KPIs do produto. O projeto tem consolidado minhas habilidades em arquitetura Cloud-native, engenharia de software e engenharia de dados."
   status: "andamento"
