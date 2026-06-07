@@ -8,9 +8,32 @@ layout: default
 </div>
 
 <div class="card">
-    <h2>🚀 Projetos e Experiências Práticas</h2>
+    <h2>🚀 Projetos e Experiências Corporativas</h2>
     <ul class="todo-list">
         {% for projeto in site.data.projetos %}
+        <li class="todo-item {% if projeto.status == 'concluido' %}done{% elsif projeto.status == 'andamento' %}in-progress{% endif %}">
+            <span class="todo-icon">
+                {% if projeto.status == 'concluido' %}
+                    ✓
+                {% elsif projeto.status == 'andamento' %}
+                    ⌛
+                {% else %}
+                    •
+                {% endif %}
+            </span>
+            <div class="todo-text">
+                <strong>{{ projeto.titulo }}</strong>
+                <p style="margin: 0; font-size: 0.95rem; color: var(--text-muted);">{{ projeto.descricao }}</p>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="card">
+    <h2>💻 Projetos Pessoais</h2>
+    <ul class="todo-list">
+        {% for projeto in site.data.projetos_pessoais %}
         <li class="todo-item {% if projeto.status == 'concluido' %}done{% elsif projeto.status == 'andamento' %}in-progress{% endif %}">
             <span class="todo-icon">
                 {% if projeto.status == 'concluido' %}
