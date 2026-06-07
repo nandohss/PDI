@@ -1,18 +1,16 @@
 curto_prazo:
   - descricao: "Obter a certificação AWS Solutions Architect (Associate). [31/01/2025]"
     concluido: false
-  - descricao: "Realizar simulado e obter 70% de acertos [até 31/11/2024]"
+  - descricao: "Aprofundar conhecimentos em PySpark."
+    concluido: true
+  - descricao: "Aprofundar conhecimentos em Python (Clean Code)."
     concluido: false
-  - descricao: "Realizar simulado e obter 75% de acertos [até 31/12/2024]"
-    concluido: false
-  - descricao: "Aprofundar conhecimentos em Python e PySpark."
-    concluido: false
-  - descricao: "Participar de projetos focados em democratização de dados."
+  - descricao: "Aprofundar conhecimentos em Python (Clean Architecture) - Aplicado na prática no projeto Hubros."
     concluido: true
 
 medio_prazo:
-  - descricao: "Explorar tecnologias de dados por stream, como por exemplo Kinesis, e ferramentas como EMR e Databricks. [31/03/2025]"
-    concluido: false
+  - descricao: "Exploração de streaming de dados com AWS Kinesis, Lambda com DynamoDB Events e DynamoDB Streams."
+    concluido: true
   - descricao: "Obter a certificação AWS Data Engineering (Associate). [31/06/2025]"
     concluido: false
   - descricao: "Concluir Pós-Graduação (MBA) em Engenharia de Dados pelo Mackenzie. [Outubro/2026]"
@@ -26,5 +24,5 @@ longo_prazo:
 
 plano_de_acao:
   - descricao: "Participar de cursos e treinamentos focados em AWS e Data Engineering."
-  - descricao: "Envolver-me em projetos práticos e desafios, como hackathons e competições internas."
+  - descricao: "Envolver-me em projetos práticos e desafios (ex: atuar como Founder e Tech Lead no app Hubros)."
   - descricao: "Buscar oportunidades de mentoria e networking para aprender com profissionais experientes."

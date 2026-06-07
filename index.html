@@ -22,7 +22,12 @@ layout: default
                 {% endif %}
             </span>
             <div class="todo-text">
-                <strong>{{ projeto.titulo }}</strong>
+                <strong>
+                    {% if projeto.icone %}
+                    <img src="{{ projeto.icone }}" class="company-logo" alt="Logo">
+                    {% endif %}
+                    {{ projeto.titulo }}
+                </strong>
                 <p style="margin: 0; font-size: 0.95rem; color: var(--text-muted);">{{ projeto.descricao }}</p>
             </div>
         </li>
@@ -45,7 +50,12 @@ layout: default
                 {% endif %}
             </span>
             <div class="todo-text">
-                <strong>{{ projeto.titulo }}</strong>
+                <strong>
+                    {% if projeto.icone %}
+                    <img src="{{ projeto.icone }}" class="company-logo" alt="Logo">
+                    {% endif %}
+                    {{ projeto.titulo }}
+                </strong>
                 <p style="margin: 0; font-size: 0.95rem; color: var(--text-muted);">{{ projeto.descricao }}</p>
             </div>
         </li>
@@ -59,11 +69,33 @@ layout: default
         {% for item in site.data.timeline %}
         <div class="timeline-item">
             <div class="timeline-period">{{ item.periodo }}</div>
-            <div class="timeline-title">{{ item.cargo }} | {{ item.squad }}</div>
+            {% if item.icone %}
+            <img src="{{ item.icone }}" class="timeline-logo" alt="Logo">
+            {% endif %}
+            <div class="timeline-title">
+                {{ item.cargo }}
+                <div style="font-size: 0.9rem; font-weight: 500; color: var(--text-muted); margin-top: 0.2rem;">{{ item.squad }}</div>
+            </div>
             <div class="timeline-desc">{{ item.descricao }}</div>
         </div>
         {% endfor %}
     </div>
+</div>
+
+<div class="card">
+    <h2>🏆 Prêmios e Reconhecimentos</h2>
+    <ul class="todo-list">
+        <li class="todo-item done">
+            <span class="todo-icon">✓</span>
+            <div class="todo-text">
+                <strong>
+                    <img src="https://logo.clearbit.com/itau.com.br" class="company-logo" alt="Itaú">
+                    PRAD (Programa de Reconhecimento de Alto Desempenho) - Itaú
+                </strong>
+                <p style="margin: 0; font-size: 0.95rem; color: var(--text-muted);">Premiado em 2025 pelo ciclo de avaliação de 2024. O reconhecimento foi fruto da atuação decisiva na engenharia de dados do produto FinOps Agent, cuja democratização analítica resultou em uma redução de custos de infraestrutura AWS de R$ 10 milhões no primeiro ano.</p>
+            </div>
+        </li>
+    </ul>
 </div>
 
 <div class="card">

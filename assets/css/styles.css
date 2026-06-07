@@ -260,7 +260,6 @@ header p {
 }
 
 .todo-item.done .todo-text {
-  text-decoration: line-through;
   color: var(--text-muted);
 }
 
@@ -288,6 +287,27 @@ header p {
   background: var(--warning-color);
   border-color: var(--warning-color);
   color: #fff;
+}
+
+/* Logos */
+.company-logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  vertical-align: middle;
+  margin-right: 8px;
+  background-color: #fff;
+  padding: 2px;
+}
+
+.timeline-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+  background-color: #fff;
+  padding: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .todo-text {

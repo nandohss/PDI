@@ -1,3 +1,4 @@
 - titulo: "App Hubros (Plataforma de Coworking)"
+  icone: "https://ui-avatars.com/api/?name=Hubros&background=0D8ABC&color=fff&rounded=true"
   descricao: "Como Founder desta plataforma de coworking, tenho desenvolvido sólida visão estratégica, de negócios e gestão de produto (Product Management), liderando a evolução da plataforma desde a concepção. O aplicativo nativo (iOS) possui fluxo completo de reservas, pagamentos e QR Code, apoiado por backend serverless via AWS Amplify e uma arquitetura de dados Lake House com Dashboards analíticos de KRs/KPIs. Este projeto consolida meu perfil híbrido entre forte atuação técnica (Engenharia e Arquitetura Cloud) e visão empreendedora."
   status: "andamento"
