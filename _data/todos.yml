@@ -17,9 +17,13 @@ medio_prazo:
     concluido: false
   - descricao: "Continuar expandindo minha expertise em modelagem de dados e desenvolvimento de produtos de dados."
     concluido: false
+  - descricao: "Iniciar curso particular de Inglês. [Início de 2027]"
+    concluido: false
 
 longo_prazo:
   - descricao: "Decidir entre seguir uma carreira técnica ou de gestão, com base em um aprofundamento técnico e melhor compreensão dos aspectos gerenciais."
+    concluido: false
+  - descricao: "Iniciar um curso de MBA Executivo (curso e instituição a decidir)."
     concluido: false
 
 plano_de_acao:
