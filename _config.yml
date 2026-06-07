@@ -1,5 +1,5 @@
 title: "Fernando Sousa Silva"
 description: "Plano de Desenvolvimento Individual (PDI)"
-baseurl: "" # Deixe vazio se você estiver publicando na raiz do domínio do usuário
+baseurl: "/PDI" # Necessário pois o projeto está no repositório /PDI e não na raiz do seu GitHub
 url: "https://nandohss.github.io"
 theme: minima
